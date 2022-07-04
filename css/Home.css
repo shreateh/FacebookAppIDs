@@ -269,3 +269,15 @@ booking-area .form-control:focus,
     outline: none;
     box-shadow: none;
 }
+
+.facilities-area{
+    margin-top: 130px;
+}
+
+.facilities-area .facilities-images .fc-img{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
