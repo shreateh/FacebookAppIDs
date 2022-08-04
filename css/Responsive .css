@@ -4,59 +4,106 @@
     }
     .header_wrapper .navbar-expand-lg .navbar-nav .nav-link {
         padding: 0;
-        font-size: .875rem;
+        font-size: 0.875rem;
     }
     .Main-btn {
-        font-size: .875rem;
+        font-size: 0.875rem;
     }
 
-    .booking-area{
+    .booking-area {
         padding: 3rem 0.625rem;
     }
-    .booking-area .Main-btn{
+    .booking-area .Main-btn {
         padding-left: 0.3125rem !important;
         padding-right: 0.3125rem !important;
     }
+
+    .room-items .room-content {
+        padding: 1rem 1.875rem;
+    }
+    .room-items .room-content h5 {
+        font-size: 1.2rem;
+    }
+    
+    .room-items .room-content p {
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width: 991px) {
-    section{
+    section {
         padding: 1.875rem 0;
     }
-    .header-scrolled{
+    .header-scrolled {
         height: auto;
     }
-    .header_wrapper .menu-navbar-nav{
+    .header_wrapper .menu-navbar-nav {
         text-align: center;
-        padding-bottom: .9375rem;
+        padding-bottom: 0.9375rem;
     }
 
-    .banner_wrapper{
+    .banner_wrapper {
         height: 25.625rem;
-
     }
 
-    .booking-area{
+    .booking-area {
         padding: 3.125rem 1.875rem;
+    }
+
+    .facilities-area {
+        margin-top: 25rem;
+    }
+    .area .facilities-images {
+        width: 60%;
+    }
+    .area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-sec {
+        margin-bottom: 30px;
+    }
+    .rooms_wrapper .room-items .room-content {
+        padding: 3rem 1.875rem;
+    }
+    .room-items .room-content h5 {
+        font-size: 1.5rem !important; 
+    }
+    
+    .room-items .room-content p {
+        font-size: 0.75rem;
     }
 }
 
 @media (max-width: 767px) {
-    h1{
+    h1 {
         font-size: 1.875rem;
         line-height: 2.5rem;
     }
-    h3{
+    h3 {
         font-size: 1.75rem;
         line-height: 2.1875rem;
     }
-    h5{
+    h5 {
         font-size: 1.25rem;
-        
     }
-    h1{
-        font-size: .8125rem;
+    h1 {
+        font-size: 0.8125rem;
         line-height: 1.5rem;
     }
+    .area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .area .facilities-images {
+        width: 90%;
+    }
 
+    .image-sec {
+        margin-bottom: 30px;
+    }
 }

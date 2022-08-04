@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("CometVideoHomeLeftRailWatchlistQuery$Parameters",["CometVideoHomeLeftRailWatchlistQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("CometVideoHomeLeftRailWatchlistQuery_facebookRelayOperation"),metadata:{},name:"CometVideoHomeLeftRailWatchlistQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("CometVideoHomeTopNavKeywordsRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5065673960209634"}),null);

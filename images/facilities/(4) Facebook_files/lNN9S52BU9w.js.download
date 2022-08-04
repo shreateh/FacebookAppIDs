@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("mapMapToArray",[],(function(a,b,c,d,e,f){"use strict";function a(a,b){var c=[],d=0;for(var e=a,f=Array.isArray(e),g=0,e=f?e:e[typeof Symbol==="function"?Symbol.iterator:"@@iterator"]();;){var h;if(f){if(g>=e.length)break;h=e[g++]}else{g=e.next();if(g.done)break;h=g.value}h=h;var i=h[0];h=h[1];c.push(b(h,i,d,a));d++}return c}f["default"]=a}),66);
+__d("GroupsCometEndOfFeedQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5766932893323901"}),null);
+__d("GroupsCometNewMemberGreetingDialogRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5383106328419089"}),null);
