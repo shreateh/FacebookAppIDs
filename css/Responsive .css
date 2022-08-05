@@ -24,11 +24,35 @@
     .room-items .room-content h5 {
         font-size: 1.2rem;
     }
-    
+
     .room-items .room-content p {
         font-size: 1rem;
     }
 
+    .service-item-wrap .tab-content img {
+        width: 100%;
+    }
+
+    .service-menu-area ul li a {
+        margin-bottom: 0.8125rem;
+        overflow: hidden;
+    }
+    .service-menu-area ul li:nth-child(1) {
+        margin-left: -4.275rem;
+    }
+    .service-menu-area ul li:nth-child(2) {
+        margin-left: -6.8125rem;
+    }
+    .service-menu-area ul li:nth-child(3) {
+        margin-left: -9.275rem;
+    }
+    .service-menu-area ul li:nth-child(4) {
+        margin-left: -11.8125rem;
+    }
+
+    .service-menu-area ul li a h5 {
+        margin-bottom: 0.375rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -70,11 +94,18 @@
         padding: 3rem 1.875rem;
     }
     .room-items .room-content h5 {
-        font-size: 1.5rem !important; 
+        font-size: 1.5rem !important;
     }
-    
+
     .room-items .room-content p {
         font-size: 0.75rem;
+    }
+
+    .service-menu-area {
+        padding: 1.75rem 0.5rem;
+    }
+    .service-menu-area ul li {
+        margin-left: unset !important;
     }
 }
 
