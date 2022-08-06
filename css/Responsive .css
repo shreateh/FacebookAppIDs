@@ -137,4 +137,8 @@
     .image-sec {
         margin-bottom: 30px;
     }
+
+    .blog-wrapper .blog-content{
+        margin: 0;
+    }
 }

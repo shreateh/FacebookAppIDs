@@ -49,3 +49,27 @@ document.addEventListener("DOMContentLoaded", () => {
     counter("count3", 0, 1560, 3000);
     counter("count4", 0, 1240, 3000);
 });
+
+
+var swiper = new Swiper(" .our-partner", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 2000,
+    },
+    breakpoint: {
+        '991': {
+            slidesPerView: 5,
+            spaceBetween: 20,
+        },
+        '767': {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        '320': {
+            slidesPerView: 2,
+            spaceBetween: 8,
+        },
+    },
+});
