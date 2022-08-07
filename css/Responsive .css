@@ -141,4 +141,8 @@
     .blog-wrapper .blog-content{
         margin: 0;
     }
+
+    .footer_wrapper > div{
+        padding: 0 1.875rem;
+    }
 }
